@@ -21,4 +21,7 @@ Para este proyecto escogimos una pagina web (***https://es.uefa.com/uefachampion
 * https://replit.com
 * Bootstrap
 
+## Pantallazo página web(OFICIAL): (***https://es.uefa.com/uefachampionsleague***)
+
+
 
