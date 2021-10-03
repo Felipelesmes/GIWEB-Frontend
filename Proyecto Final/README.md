@@ -22,6 +22,7 @@ Para este proyecto escogimos una pagina web (***https://es.uefa.com/uefachampion
 * Bootstrap
 
 ## Pantallazo página web(OFICIAL): (***https://es.uefa.com/uefachampionsleague***)
+![image](https://github.com/Felipelesmes/GIWEB-Frontend/blob/main/Proyecto%20Final/Archivos%20Multimedia/Pantallazos/PantallazoWeb(oficial).png)
 
 
 
