@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <title>UEFA Champions League | UEFA.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="estilos.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="imagenes/logo.png">
+    <link
+    sheet
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: url("imagenes/1.jpg");
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      
+      .Boton1{
+        float: right;
+      }
+
+      .scroll{
+        
+        border-top: 0.5px solid white;
+        background: #010a82;
+      }
+
+      .swiper {
+      
+        margin-left: 70px;
+        
+        width: 75%;
+        height: 100px;
+        padding: 1px;
+        
+      }
+
+      .swiper-slide {
+        text-align: right;
+        font-size: 18px;
+        background: #010a82;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+  
+    </style>
+
+<body >
+
+    <header id="header">
+        <nav class="menu">
+        <div class="logo-box">
+          <h1><a href="#"><img src="imagenes/logo.svg" alt=""></a></h1>
+      
+        </div>
+         <div class = "contenedor">
+           <ul class="lists">
+              <li><a href="#">Sobre UEFA</a></li>
+              <li><a href="#">UEFA.tv</a></li>
+              <li><a href="#">Marcadores</a></li>
+              <li><a href="#">Entradas/Hospitalidad</a></li>
+              <li><a href="#">Tienda</a></li>
+              <li><a href="#"><img src="imagenes/logo_sesion.png"width="18" height="16"style="float:right">Iniciar Sesión</a></li>
+              <li><a href="#"><img src="imagenes/menu.png"width="19" height="19"style="float:right">Áreas</a></li>  
+            </div>
+      </nav>
+
+    <div class="img-header"></div>
+
+    <nav class="menu2">
+         <div class = "contenedor2">
+           <ul class="lists2">
+              <li><a href="#">Últimas noticias</a></li>
+              <li><a href="#">Partidos y resultados</a></li>
+              <li><a href="#">Grupos</a></li>
+              <li><a href="#">Sorteos</a></li>
+              <li><a href="#">Equipos</a></li>
+              <li><a href="#">Datos</a></li>
+              <li><a href="#">Gaming</a></li>
+              <li><a href="#">Historia</a></li>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Tienda</a></li>   
+           </ul>
+         </div>
+     </nav>
+     
+   </header>
+
+  
+   <div class="scroll"> 
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="#"><img src="imagenes/Scroll2.png"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="imagenes/Scroll1.png"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="imagenes/Scroll3.png"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="imagenes/Scroll4.png"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="imagenes/Scroll5.png"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="imagenes/Scroll6.png"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="imagenes/Scroll7.png"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="imagenes/Scroll8.png"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="imagenes/Scroll9.png"></a></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 7,
+        spaceBetween: 1,
+        slidesPerGroup: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <div id="Body 3">
+
+        <section>
+
+            <div class="row" id="galeria1" class="container1">
+    
+                <div class="col-lg-8 ">
+                    <img src="imagenes/feed0.1.png" alt="Galeria">
+                </div>
+                <div class="col-lg-4">
+                    <img src="imagenes/feed0.2.png" alt="Galeria">
+                </div>
+            </div>
+    
+        </section>
+
+    </div>
+           
+  
+
+  <div id="Body4" class="Boody4">
+    
+        <section id="galeria" class="container">
+
+            <div id="TextoU" class= "text-left pt-5">
+                <h1>Últimas noticias</h1>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6 ">
+                    <img src="imagenes/feed1.png" alt="Galeria">
+                </div>
+                <div class="col-lg-3">
+                    <img src="imagenes/feed2.png" alt="Galeria">
+                </div>
+                <div class="col-lg-3">
+                    <img src="imagenes/feed3.png" alt="Galeria">
+                </div>
+                <div class="col-lg-3">
+                    <img src="imagenes/feed4.png" alt="Galeria">
+                </div>
+                <div class="col-lg-3">
+                    <img src="imagenes/feed5.png" alt="Galeria">
+                </div>
+                <div class="col-lg-6">
+                    <img src="imagenes/feed6.png" alt="Galeria">
+                </div>
+                <div class="col-lg-6">
+                    <button name="Boton1" id="idBoton1"> Mas noticias y videos </button>
+                </div>
+
+
+            </div>
+
+        </section>
+  </div>
+
+  <div id="Body5" class="Boody4">
+    
+    <section id="galeria2" class="container2">
+
+        <div id="TextoR" class= "text-left pt-5">
+            <h1>Resumenes en vídeo</h1>
+        </div>
+
+        <div class="row">
+
+
+            <div class="col-lg-4">
+                <img src="imagenes/feed1.1.png" alt="Galeria">
+            </div>
+            <div class="col-lg-4">
+                <img src="imagenes/feed1.2.png" alt="Galeria">
+            </div>
+            <div class="col-lg-4">
+                <img src="imagenes/feed1.3.png" alt="Galeria">
+            </div>
+            <div class="col-lg-4">
+                <button name="Boton1" id="idBoton2"> ver todos los videos </button>
+            </div>
+
+
+        </div>
+
+    </section>
+        </div>
+
+        <div id="Body6" class="Boody4">
+            
+            <section id="galeria3" class="container3">
+
+                <div id="TextoUE" class= "text-left pt-5">
+                    <h1>UEFA Gaming</h1>
+                </div>
+
+                <div class="row">
+
+
+                    <div class="col-lg-6">
+                        <img src="imagenes/11.png" alt="Galeria">
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="imagenes/21.png" alt="Galeria">
+                    </div>
+                    <div class="col-lg-6">
+                        <button name="Boton1" id="idBoton3"> ver todos los partidos </button>
+                    </div>
+
+
+                </div>
+
+    </section>
+        </div>
+
+        <div id="Body7" class="Boody7">
+            
+            <section id="galeria4" class="container4">
+
+                <div id="TextoGr" class= "text-left pt-5">
+                    <h1>Grupos</h1>
+                </div>
+
+                <div class="row">
+
+
+                    <div class="col-lg-4" >
+                        <img class="a" src="imagenes/a.png" alt="Galeria">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="imagenes/b.png" alt="Galeria">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="imagenes/c.png" alt="Galeria">
+                    </div>
+                    <div class="col-lg-4">
+                        <button name="Boton1" id="idBoton4"> Grupos </button>
+                    </div>
+
+
+                </div>
+
+                <div id="Body8" class="Boody7">
+            
+                    <section id="galeria6" class="container4">
+        
+                        <div id="TextoEs" class= "text-left pt-5">
+                            <h1>Estadisticas del partido</h1>
+                        </div>
+        
+                        <div class="row">
+        
+        
+                            <div class="col-lg-2" >
+                                <img src="imagenes/ab.png" alt="Galeria">
+                            </div>
+                            <div class="col-lg-2">
+                                <img src="imagenes/ac.png" alt="Galeria">
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="imagenes/ad.png" alt="Galeria">
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="imagenes/ae.png" alt="Galeria">
+                            </div>
+        
+        
+                        </div>
+
+    </section>
+        </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
